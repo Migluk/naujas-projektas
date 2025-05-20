@@ -183,16 +183,39 @@ body {
   width: 27%;
 }
 
-.textrow {
+.text-under-photos {
   display: flex;
-  flex-direction: column;
-  margin-left: 10%;
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-left: 7%;
+  margin-top: 4%;
 }
 
-.textrow a {
-color: black;
+.textrow {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left;
 }
 
-.first-title {
-  margin-left: -20px
+.textrow h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.textrow p {
+  line-height: 2.5;
+  margin-bottom: 5px;
+}
+
+.shop-link {
+  display: inline-block;
+  text-decoration: underline;
+  color: black;
+  margin-top: 7px;
+}
+
+.shop-link:hover {
+  color: #555;
 }
