@@ -34,6 +34,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-size: 80%;
+  cursor: pointer;
 }
 
 .middle-nav a {
@@ -90,11 +91,11 @@ body {
   color: #555;
 }
 
-.imgone {
+.event {
     width: 100%;
 }
 
-.imgtwo {
+.collection {
     width: 99.5%;
     margin-top: -5px;
 }
@@ -136,4 +137,62 @@ body {
     background-color: #BBBBBB;
     cursor: pointer;
     transition-duration: 0.4s;
+}
+
+.heels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: 12%;
+  gap: 17%;
+}
+
+.heeltext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 12%;
+  gap: 155px;
+}
+
+.newcrew {
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 5%;
+}
+
+.threeshoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 123px;
+  gap: 5%;
+  margin-top: 3%;
+}
+
+.moreheels {
+  width: 27%;
+}
+
+.twoboots {
+  width: 27%;
+}
+
+.twogreyboots {
+  width: 27%;
+}
+
+.textrow {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.textrow a {
+color: black;
+}
+
+.first-title {
+  margin-left: -20px
 }
