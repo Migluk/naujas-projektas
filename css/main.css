@@ -219,3 +219,178 @@ body {
 .shop-link:hover {
   color: #555;
 }
+
+.sale {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.first-layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.long-boots {
+  width: 78%;
+  margin-bottom: 65px;
+}
+
+.product-text {
+  text-align: left;
+  margin-top: 24.5%;
+  margin-left: -10%;
+}
+
+.product-text h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-text a {
+  color: black;
+  margin-left: 30%;
+}
+
+.second-layer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.sneakers {
+  width: 78%;
+  margin-top: -8%;
+  margin-left: 18%;
+}
+
+.second-product-text {
+  margin-right: 25%;
+  margin-top: 24.5%;
+}
+
+.second-product-text h1 {
+  margin-bottom: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.second-product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.second-product-text a {
+  color: black;
+  margin-left: 25%;
+}
+
+.third-layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.many-heels {
+  width: 78%;
+  margin-bottom: 65px;
+}
+
+.third-product-text {
+  text-align: left;
+  margin-top: 23%;
+  margin-left: -10%;
+}
+
+.third-product-text h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.third-product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.third-product-text a {
+  color: black;
+  margin-left: 35%;
+}
+
+.fourth-layer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.watch {
+  width: 78%;
+  margin-top: -8%;
+  margin-left: 18%;
+}
+
+.fourth-product-text {
+  margin-right: 25%;
+  margin-top: 21%;
+}
+
+.fourth-product-text h1 {
+  margin-bottom: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.fourth-product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fourth-product-text a {
+  color: black;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.fifth-layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bag {
+  width: 78%;
+  margin-bottom: 65px;
+}
+
+.fifth-product-text {
+  text-align: left;
+  margin-top: 24.5%;
+  margin-left: -10%;
+}
+
+.fifth-product-text h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fifth-product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fifth-product-text a {
+  color: black;
+  margin-left: 30%;
+}
