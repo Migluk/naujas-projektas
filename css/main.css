@@ -273,23 +273,26 @@ body {
 .second-product-text {
   margin-right: 25%;
   margin-top: 24.5%;
+  text-align: center;
 }
 
 .second-product-text h1 {
   margin-bottom: 10px;
-  margin-right: 10%;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .second-product-text p {
-  line-height: 2.5;
-  text-align: center;
+  margin-top: 10%;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .second-product-text a {
   color: black;
-  margin-left: 25%;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .third-layer {
@@ -339,27 +342,27 @@ body {
 
 .fourth-product-text {
   margin-right: 25%;
-  margin-top: 21%;
+  margin-top: 24.5%;
+  text-align: center;
 }
 
 .fourth-product-text h1 {
   margin-bottom: 10px;
-  margin-right: 10%;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .fourth-product-text p {
-  line-height: 2.5;
-  text-align: center;
+  margin-top: 10%;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .fourth-product-text a {
   color: black;
-  margin-left: 20%;
-  display: flex;
-  flex-direction: row;
-  
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .fifth-layer {
@@ -393,4 +396,133 @@ body {
 .fifth-product-text a {
   color: black;
   margin-left: 30%;
+}
+
+.nine-west {
+  width: 65%;
+  margin-left: 18%;
+  margin-top: -1.5%;
+}
+
+.six-product-text {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.six-product-text h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.six-product-text p {
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.six-product-text a {
+  color: black;
+  text-align: center;
+}
+
+.love9 {
+  width: 100%;
+  margin-top: 3.9%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  font-size: 14px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section p {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.social-media-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: black;
+}
+
+.customer-care h1 {
+  margin-bottom: 10px;
+  margin-left: 15%;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.customer-care ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  margin-left: 25%;
+  text-align: left;
+  margin-top: 6%;
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.order-assistance h1 {
+  margin-bottom: 10px;
+  margin-left: -10%;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.order-assistance button {
+  display: block;
+  width: 280px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.accessibility h1 {
+  margin: 10px 0 5px;
+  font-weight: normal;
+  font-size: small;
+  margin-top: 6%;
+}
+
+.accessibility p {
+  font-size: small;
+  margin-top: 2%;
+}
+
+.payment-icons img {
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
 }
